@@ -85,6 +85,8 @@ int main() {
 
 */
 
+/*
+
 // 9. switches
 
 int main() {
@@ -130,6 +132,37 @@ int main() {
 
     return 0;
 }
+    */
+
+    // 10. nested if statements
+
+int main() {
+    int score;
+
+    printf("Please enter your score (0 - 100): ");
+    scanf("%d", &score);
+
+    if (score >= 0 && score <= 100) {
+        if (score >= 60) {
+            if (score >= 85) {
+                printf("🌟 Grade Level: Excellent\n");
+            } else {
+                printf("🙂 Grade Level: Pass\n");
+            }
+        } else {
+            if (score >= 40) {
+                printf("⚠️ Grade Level: Fail (Needs Improvement)\n");
+            } else {
+                printf("❌ Grade Level: Severe Fail (Consider Retaking)\n");
+            }
+        }
+    } else {
+        printf("❗ Invalid input: Score should be between 0 and 100.\n");
+    }
+
+    return 0;
+}
+
 
 
 

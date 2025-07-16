@@ -1,2 +1,1 @@
-
-        printf("Hello %s", name);
+10. nested if statements
