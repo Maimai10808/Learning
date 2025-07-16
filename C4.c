@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+/*
 // 13. functions
 
 void happyBirthday() {
@@ -35,6 +37,36 @@ int main() {
 
     return 0;
 }
+
+*/
+
+int square(int num) {
+
+    int result = num * num;
+
+    return result;
+}
+
+
+
+// 13. return
+
+int main() {
+    // return = returns a value back to where you call a function
+
+    int x = square(2);
+
+    printf("%d\n", x);
+
+
+
+    return 0;
+}
+
+
+
+
+
 
 
 
