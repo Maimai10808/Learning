@@ -32,6 +32,8 @@ int main() {
 
     // 7. weight converter
 
+    /*
+
 int main() {
 
     // WEIGHT CONVERTER PROGRAM
@@ -67,3 +69,18 @@ int main() {
 
     return 0;
 }
+
+*/
+
+// 8. temperature program
+
+int main() {
+
+    //  so easy for me it is similar to 7. weight converter
+
+    return 0;
+}
+
+
+
+
