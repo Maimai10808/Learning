@@ -72,6 +72,8 @@ int main() {
 
 */
 
+/*
+
 // 8. temperature program
 
 int main() {
@@ -80,6 +82,56 @@ int main() {
 
     return 0;
 }
+
+*/
+
+// 9. switches
+
+int main() {
+
+    // switch = An alternative to using many if- else statements
+    // More efficient w/ fixed integer values
+
+    int dayOWeek = 0;
+
+    printf("plz typing a num: ");
+    scanf("%d", &dayOWeek);
+
+    switch (dayOWeek)
+    {
+        case 1:
+        printf("It is Monday");
+        break;
+
+        case 2:
+        printf("It is 2");
+        break;
+
+        case 3:
+        printf("It is 3");
+        break;
+        case 4:
+        printf("It is 4");
+        break;
+        case 5:
+        printf("It is 5");
+        break;
+        case 6:
+        printf("It is 6");
+        break;
+        case 7:
+        printf("It is 7");
+        break;
+
+    default:
+    printf("error, plz try again");
+        break;
+    }
+
+    return 0;
+}
+
+
 
 
 
