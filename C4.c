@@ -71,6 +71,8 @@ int main() {
 }
     */
 
+    /*
+
 
     // 14. variable scope
 
@@ -108,6 +110,27 @@ int main() {
 
     return 0;
 }
+
+*/
+
+// 14. function prototypes
+
+// Function prototype: declares the return type and parameter types of the function
+int add(int, int);  // The add function takes two integers and returns an integer
+
+int main() {
+    int result = add(5, 3);  // Call the add function
+    printf("The result is: %d\n", result);  // Print the result
+    return 0;
+}
+
+// Function definition: implements the actual logic of the function
+int add(int a, int b) {
+    return a + b;  // Return the sum of the two integers
+}
+
+
+
 
 
 
