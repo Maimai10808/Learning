@@ -1,1 +1,2 @@
 
+    printf("Area: %lf", area);
