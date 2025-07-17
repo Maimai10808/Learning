@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <unistd.h> // MAC
 
 // 17. while loops
 
@@ -29,6 +30,9 @@ int main() {
 
 */
 
+
+/*
+
 int main() {
 
     bool isRunning = true;
@@ -48,4 +52,21 @@ int main() {
     return 0;
 }
 
+*/
+
+// 18. for  loops
+
+int main() {
+
+    // for loop = Repeat some code a limited # of times
+    //  for(Initialization; Condition; Update)
+
+    for(int i = 10; i >= 0 ; i--){
+        sleep(1);
+        printf("%d\n", i);
+    };
+
+
+    return 0;
+}
 
