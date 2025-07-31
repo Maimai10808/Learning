@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-// 36. WRITE A FILE
+// 37. read A FILE
 
 
 int main() {
